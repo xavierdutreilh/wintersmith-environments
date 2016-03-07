@@ -4,6 +4,7 @@ html
     meta(charset='utf-8')
     title=locals.name
     meta(name='author', content=locals.owner)
+    link(href=contents['sample.css'].url, rel='stylesheet', type='text/css')
   body
     header
       h1=locals.name
@@ -12,3 +13,4 @@ html
       !=page.html
     footer
       p &copy; #{locals.owner}
+    script(src=contents['sample.js'].url)

@@ -31,7 +31,8 @@
     "jscs": "^2.3.0",
     "jshint": "^2.8.0",
     "nodeunit": "^0.9.1",
-    "wintersmith": "^2.0.0"
+    "wintersmith": "^2.0.0",
+    "wintersmith-revision": "^0.2.0"
   },
   "peerDependencies": {
     "wintersmith": "^2.0.0"
