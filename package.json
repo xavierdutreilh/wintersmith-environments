@@ -1,0 +1,47 @@
+{
+  "name": "wintersmith-environments",
+  "description": "A Wintersmith plugin to manage environment-specific settings",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xavierdutreilh/wintersmith-environments",
+  "author": {
+    "name": "Xavier Dutreilh",
+    "email": "xavier@dutreilh.com",
+    "url": "http://xavier.dutreilh.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xavierdutreilh/wintersmith-environments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xavierdutreilh/wintersmith-environments/issues"
+  },
+  "license": "MIT",
+  "main": "lib/",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "scripts": {
+    "pretest": "jshint . && jscs . && wintersmith build -C test/fixtures",
+    "test": "nodeunit"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "jscs": "^2.3.0",
+    "jshint": "^2.8.0",
+    "nodeunit": "^0.9.1",
+    "wintersmith": "^2.0.0"
+  },
+  "peerDependencies": {
+    "wintersmith": "^2.0.0"
+  },
+  "keywords": [
+    "configuration",
+    "environment",
+    "lodash",
+    "setting",
+    "wintersmith",
+    "wintersmith-plugin"
+  ]
+}
