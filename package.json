@@ -1,7 +1,7 @@
 {
   "name": "wintersmith-environments",
   "description": "A Wintersmith plugin to manage environment-specific settings",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/xavierdutreilh/wintersmith-environments",
   "author": {
     "name": "Xavier Dutreilh",
