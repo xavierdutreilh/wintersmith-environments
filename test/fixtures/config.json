@@ -1,6 +1,11 @@
 {
   "environments": {
     "build": {
+      "ignore": [
+        "*.a",
+        "*.b",
+        "*.c"
+      ],
       "locals": {
         "name": "My Site Name"
       },

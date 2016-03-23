@@ -8,6 +8,14 @@ html
   body
     header
       h1=locals.name
+      h2 Ignore
+      ul
+        for item in env.config.ignore
+          li=item
+      h2 Plugins
+      ul
+        for plugin in env.config.plugins
+          li=plugin
     main
       h2=page.title
       !=page.html
