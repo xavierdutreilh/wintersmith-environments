@@ -25,6 +25,7 @@
     "test": "nodeunit"
   },
   "dependencies": {
+    "async": "^1.5.2",
     "lodash": "^4.6.1"
   },
   "devDependencies": {
@@ -38,6 +39,7 @@
     "wintersmith": "^2.0.0"
   },
   "keywords": [
+    "async",
     "configuration",
     "environment",
     "lodash",
