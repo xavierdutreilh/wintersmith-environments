@@ -5,7 +5,7 @@ function read (filename) {
 }
 
 exports.environments = {
-  build(test) {
+  build (test) {
     const actual = read(`${__dirname}/../tmp/index.html`)
     const expected = read(`${__dirname}/expected/index.html`)
 
